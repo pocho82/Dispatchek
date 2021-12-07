@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #006be0;
+    --secondary-color: #54d204;
+    --primary-color-text: #006be0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 30px;
+    position: absolute;
+    right: 105px;
+}
+
+li {
+    list-style-type: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 30px 20px;
+}
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 100px;
+}
+
+.header-container h1{
+    font-size: 48px;
+    line-height: 53px;
+}
+
+.header-container .titlle-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header-container .img-header {
+    display: block;
+    margin: 0 auto;
+    background-color: red;  
+}
+
+/* MAIN */
+
+main {
+    margin: 100px;
+}
+
+main .section-benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50vh;
+    column-gap: 50px;
+}
+.faq {
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+/* PSEUDOELEMENTO */
+
+.titlle-header a::after {
+    content: " →";
+}
+.benefits a::after {
+    content: " →";
+}
+
+/* SECTION SERVICES - CARDS*/
+
+.section-services {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
+}
+.section-card {
+    display: grid;
+    grid-template-areas:
+        'a b'
+        'c d';
+    gap: 10px 20px;
+}
+.icon-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: grid;
+    grid-template-areas: 'a b';
+    grid-template-columns: 30% 70%;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.card:hover {
+    color: white;
+    background-color: #396adc;
+}
+.info {
+    display: flex;
+    margin: 50px 0;
+    background-color: #396adc;
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+.info .info-card {
+    display: grid;
+    grid-template-areas: 'a b';
+    grid-template-columns: 30% 70%;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.icon-info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
