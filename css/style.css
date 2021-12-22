@@ -217,7 +217,6 @@ p{
 
 .company__content p{
     display: inline-block;
-    color: red;
     line-height: 16px;
     text-align: justify;
 }

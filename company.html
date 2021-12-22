@@ -19,183 +19,55 @@
                 <img src="./img/logo.svg" alt="">
             </div>
 
-            <nav class="header__navigation">
-                <ul>
-                    <li>
-                        <a href="./dispatchek.html">Why Dispatchek?</a>
-                    </li>
-                    <li>
-                        <a href="./services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="./customers.html">Customers</a>
-                    </li>
-                    <li>
-                        <a href="./company.html">Company</a>
-                    </li>
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#" class="button">Sign Up</a>
-                    </li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Why Dispatchek</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Customers</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              
         </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero__wrapper">
-                    <div class="hero__content">
-                        <h4 class="title-section">__WELCOME TO</h4>
-                        <h1>Excellence is our commitment</h1>
-                        <p>Lorem ipsum is to create a natural looking block of text (sentence, paragraph, etc.) from the layout.</p>
-                        <a href="#" class="button">More about us</a>
-                    </div>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
 
-                    <div class="hero__image">
-                        <img src="./img/hero.png">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="benefits">
-            <div class="container">
-                <div class="benefits__content">
-                    <h4 class="title-section">__Why Dispatcheck</h4>
-                    <h3>What are the benefits?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ex tenetur inventore reiciendis
-                        facere a sint soluta consectetur error veniam repellat consequuntur ab debitis, ea minus assumenda
-                        incidunt voluptatum aspernatur.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ex tenetur inventore reiciendis
-                        facere a sint soluta consectetur error veniam repellat consequuntur ab debitis, ea minus assumenda
-                        incidunt voluptatum aspernatur.</p>
-                    <a href="#" class="link">More information</a>
-                </div>
-                
-
-                <div class="benefits__faq">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Is it a long established fact that a reader will be distracted.
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                    the collapse plugin adds the appropriate classes that we use to style each element.
-                                    These classes control the overall appearance, as well as the showing and hiding via CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables. It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Is it a long established fact that a reader will be distracted.
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and hiding
-                                    via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                    default variables. It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Is it a long established fact that a reader will be distracted.
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                    the collapse plugin adds the appropriate classes that we use to style each element.
-                                    These classes control the overall appearance, as well as the showing and hiding via CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables. It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="services">
-            <div class="container">
-                <div class="services__content">
-                    <h4 class="title-section">Why Dispatcheck</h4>
-                    <h3>What we can do for you?</h3>
-                    <p>Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
-                </div>
-
-                <div class="services__items">
-                    <div class="item">
-                        <div class="item__icon">
-                            <i class="bi-alarm"></i>
-                        </div>
-                        <div class="item__content">
-                            <h5 class="lorem">lorem ipsum</h5>
-                            <p class="lorem-p">Pseudo-Latin text used in web design, typography, layout, and printing English up Pseudo-Latin text used in web.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="item__icon">
-                            <i class="bi-alarm"></i>
-                        </div>
-                        <div class="item__content">
-                            <h5 class="lorem">lorem ipsum</h5>
-                            <p class="lorem-p">Pseudo-Latin text used in web design, typography, layout, and printing English up Pseudo-Latin text used in web.</p>
-                            
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="item__icon">
-                            <i class="bi-person-check"></i>
-                        </div>
-                        <div class="item__content">
-                            <h5 class="lorem">lorem ipsum</h5>
-                            <p class="lorem-p"> Pseudo-Latin text used in web design, typography, layout, and printing English up Pseudo-Latin text used in web.</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="item__icon">
-                            <i class="bi-person-check"></i>
-                        </div>
-                        <div class="item__content">
-                            <h5 class="lorem">lorem ipsum</h5>
-                            <p class="lorem-p">Pseudo-Latin text used in web design, typography, layout, and printing English up Pseudo-Latin text used in web.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <div class="vstack gap-3">
+        <div class="bg-light border">Nombres y Apellidos</div>
+        <div class="bg-light border">Email</div>
+        <div class="bg-light border">Movil</div>
+      </div>
 
         <section class="highlighted">
             <div class="container">
