@@ -1,0 +1,22 @@
+{
+  "name": "dispatchek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocho82/Dispatchek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocho82/Dispatchek/issues"
+  },
+  "homepage": "https://github.com/pocho82/Dispatchek#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
